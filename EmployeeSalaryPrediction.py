@@ -1,5 +1,5 @@
 import pandas as pd
-data=pd.read_csv(r"C:\Users\adars\OneDrive\Desktop\Python\adult 3.csv")
+data=pd.read_csv(r"https://github.com/adarsh479/ESP./blob/main/adult%203.csv")
 data.occupation.replace({'?': 'others'},inplace=True)
 data.workclass.replace({'?':'Notlisted'},inplace=True)
 data=data[data['workclass']!='Without-pay']
